@@ -297,6 +297,10 @@ button, input, select, textarea {
   list-style: none;
 }
 
+.mobile-menu-actions {
+  display: none !important;
+}
+
 .nav-item-dropdown {
   position: relative;
 }
