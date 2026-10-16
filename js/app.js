@@ -1259,7 +1259,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (hamburgerBtn && navMenu) {
     // Append mobile action buttons inside navMenu if not present
     if (!navMenu.querySelector('.mobile-menu-actions')) {
-      const mobileActionWrap = document.createElement('div');
+      const mobileActionWrap = document.createElement('li');
       mobileActionWrap.className = 'mobile-menu-actions';
       mobileActionWrap.innerHTML = `
         <button class="btn-primary" id="mobileMenuRfqBtn" style="width: 100%; justify-content: center;">
